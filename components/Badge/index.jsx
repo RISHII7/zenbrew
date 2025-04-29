@@ -1,8 +1,11 @@
 import Image from "next/image";
 
+// Badge component to display a decorative image 
 const Badge = ({ containerStyles }) => {
   return (
+    // Wrapper with optional custom styles passed via props
     <div className={`relative ${containerStyles}`}>
+      {/* Responsive badge image */}
       <Image 
         src="/assets/badge.svg"
         alt="Badge"
@@ -13,5 +16,4 @@ const Badge = ({ containerStyles }) => {
   );
 };
 
-export default Badge
-    
+export default Badge;
