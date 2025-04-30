@@ -1,7 +1,9 @@
 "use client"
 
-import Hero from '@/components/Hero'
 import { useEffect } from 'react'
+
+import Hero from '@/components/Hero'
+import Explore from '@/components/Explore';
 
 const Home = () => {
   // Add Locomotive Scroll
@@ -16,6 +18,7 @@ const Home = () => {
   return (
     <div className='h-full overflow-x-hidden'>
       <Hero />
+      <Explore />
       {/* Temporary Div */}
       <div className='h-[4000px]'>
 
